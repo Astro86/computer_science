@@ -4,9 +4,9 @@
 
 ![](images/process_models.png)
 
-a. 4가지 프로그램의 Multiprogramming
-b. 4개의 독립적인 프로세스 개념 모델
-c. 한번에 하나의 프로그램만 실행가능한 모델
+a. 4가지 프로그램의 Multiprogramming  
+b. 4개의 독립적인 프로세스 개념 모델  
+c. 한번에 하나의 프로그램만 실행가능한 모델  
 
 ## 프로세스
 
