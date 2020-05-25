@@ -37,9 +37,9 @@ c. 한번에 하나의 프로그램만 실행가능한 모델
 <image src = images/address_space.jpeg width = 400>
 
 프로세스의 주소공간은 크게 3가지로 나눌 수 있다.
-1. test
-2. data
-3. stack
+1. test : 프로그램 코드가 들어가는 부분
+2. data : 정적변수에 할당되는 영역이다.
+3. stack 
 
 ## 프로세스의 계층화
 
