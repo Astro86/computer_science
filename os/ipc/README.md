@@ -23,8 +23,7 @@
 - Producer - Consumer 문제가 발생한다.
 - 
 
-
-## 메시지 전달(Message Passing)
+## 메시지 전달 (Message Passing)
 
 ![](images/message_passing.png)
 
@@ -35,54 +34,3 @@
 
 ### 단점
 메시지를 전달하기 위해서는 커널을 거쳐야하기 때문에 속도가 느리다.
-
-## Race Condition(경쟁상태)
-
-<image src=images/race_condition.png width = 400>
-
-`공유자원`에 여러개의 프로세스가 접근할 때 방생한다. 여러 프로세스가 공유데이터에 동시에 접근할 때 `실행순서`에 따라서 실행 결과가 달라지는 현상이다.
-
-## Critical Regions(임계 영역)
-
-![](images/critical_regision.png)
-
-프로세스의 코드 부분에서 공유 자원에 들어가기 위한 코드부분을 임계영역(Criticla Regions)이라고 부른다.
-
-## 교착 상태
-
-![](images/deadlock.png)
-
-- 상호배제
-- 점유대기
-- 비선점
-- 순환대기
-
-> 위 4가지 조건을 동시에 만족해야 교착상태라고 부른다.
-
-# 상호 배제(Mutual Exclusion)
-- Busy Waiting
-- Sleep and WakeUp
-- Semaphore(세마포어)
-- Mutex(뮤텍스)
-- Monitor
-- Message Passing
-- Barriers
-
-## Semaphore(세마포어)
-
-![](images/semaphore.png)
-
-공유된 자원의 데이터에 한번에 여러 프로세스가 접근하지 못하게 하는 알고리즘, 
-
-- 이진 세마포어(binary semaphore)
-- 계수형 세마포어(counting semaphore)
-
-## 뮤텍스
-
-![](images/mutex.png)
-
-Locking 매커니즘을 사용
-공유된 자원의 데이터에 한번에 여러 쓰레드가 접근하지 못하게 하는 알고리즘
-
-## 모니터
-
